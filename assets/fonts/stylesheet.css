@@ -1,0 +1,92 @@
+
+/*-------------- Heebo --------------*/
+@font-face {
+    font-family: 'Heebo';
+    src: url('Heebo/Heebo-Black.woff2') format('woff2'),
+        url('Heebo/Heebo-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('Heebo/Heebo-ExtraBold.woff2') format('woff2'),
+        url('Heebo/Heebo-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('Heebo/Heebo-ExtraLight.woff2') format('woff2'),
+        url('Heebo/Heebo-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('Heebo/Heebo-Bold.woff2') format('woff2'),
+        url('Heebo/Heebo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('Heebo/Heebo-Light.woff2') format('woff2'),
+        url('Heebo/Heebo-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('Heebo/Heebo-SemiBold.woff2') format('woff2'),
+        url('Heebo/Heebo-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('Heebo/Heebo-Regular.woff2') format('woff2'),
+        url('Heebo/Heebo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('Heebo/Heebo-Thin.woff2') format('woff2'),
+        url('Heebo/Heebo-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('Heebo/Heebo-Medium.woff2') format('woff2'),
+        url('Heebo/Heebo-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('Heebo/Heebo-Regular.woff2') format('woff2'),
+        url('Heebo/Heebo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
