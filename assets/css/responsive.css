@@ -1,0 +1,152 @@
+@media screen and (max-width: 375px) {
+    main {
+        align-content: center;
+    }
+
+    .content {
+        width: 375px;
+        max-width: calc(100% - 13px);
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .header {
+        align-content: center;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .header--img {
+        position: relative;
+    }
+
+    .header--img .avatar {
+        width: 170px;
+        height: 170px;
+        position: absolute;
+        top: -500px;
+    }
+
+    .shadow {
+        width: 170px;
+        height: 170px;
+        position: absolute;
+        top: -640px;
+    }
+
+    .header--content h1 {
+        width: 312px;
+        text-align: center;
+        font-size: 3.2rem;
+    }
+
+    .header--content p {
+        width: 328px;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-right: 23px;
+        margin-left: 23px;
+    }
+
+    .header--button {
+        align-self: center;
+    }
+
+    /* Activities */
+    .activities .row > span {
+        font-size: 1.8rem;
+    }
+
+    .blog {
+        width: 354px;
+        height: 266px;
+        flex-shrink: 0;
+    }
+
+    .blog h2 {
+        width: 327px;
+        font-size: 2.2rem;
+    }
+
+    .blog--content {
+        width: 314px;
+        height: 117px;
+        flex-shrink: 0;
+        font-size: 1.6rem;
+    }
+
+    .blog .blog--time {
+        width: 230px;
+    }
+
+    .blog .blog--time span {
+        font-size: 1.3rem;
+    }
+
+    .activities .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .activities .row > a {
+        display: none;
+    }
+
+    .blog .blog--time {
+        margin-top: -20px;
+        width: 327px;
+    }
+
+    .blog .blog--content {
+        font-size: 1.3rem;
+        width: 327px;
+    }
+
+    .blog .blog--time img {
+        left: 96px;
+    }
+
+    /* Featured */
+    .featured .content > span {
+        font-size: 1.8rem;
+    }
+
+    .featured .content .works .work--image img {
+        width: 365px;
+        height: 266px;
+        flex-shrink: 0;
+        align-self: center;
+    }
+
+    .featured .works {
+        flex-direction: column;
+    }
+
+    .work--content h2 {
+        font-size: 2.4rem;
+    }
+
+    .row .year {
+        font-size: 1.6rem;
+    }
+
+    .row .work--name {
+        font-size: 1.6rem;
+    }
+
+    .work--content .details p {
+        width: 350px;
+        height: 117px;
+        flex-shrink: 0;
+        font-size: 1.6rem;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 150px;
+    }
+}
