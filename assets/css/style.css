@@ -48,6 +48,11 @@ a {
     */
 }
 
+.responsive--navbar i {
+    font-size: 40px;
+    display: none;
+}
+
 .menu {
     display: flex;
     gap: 33px;

@@ -1,4 +1,17 @@
 @media screen and (max-width: 380px) {
+    
+    .responsive--navbar {
+        position: relative;
+    }
+
+    .responsive--navbar i {
+        font-size: 40px;
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: -140px;
+    }
+
     main {
         align-content: center;
     }
@@ -14,6 +27,7 @@
 
     .header {
         align-content: center;
+        margin-top: 150px;
     }
 
     .hero {
@@ -28,14 +42,16 @@
         width: 170px;
         height: 170px;
         position: absolute;
-        top: -500px;
+        top: -600px;
+        right: 110px;
     }
 
     .shadow {
         width: 170px;
         height: 170px;
         position: absolute;
-        top: -640px;
+        top: -740px;
+        right: 106px;
     }
 
     .header--content h1 {
