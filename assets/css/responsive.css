@@ -1,5 +1,9 @@
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 800px) {
     
+    main {
+        min-width: fit-content;
+    }
+
     .responsive--navbar {
         position: relative;
     }
@@ -28,59 +32,86 @@
     .header {
         align-content: center;
         margin-top: 150px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .hero {
         flex-direction: column;
+        min-width: fit-content;
     }
 
     .header--img {
         position: relative;
+        min-width: fit-content;
     }
 
     .header--img .avatar {
         width: 170px;
         height: 170px;
-        position: absolute;
-        top: -600px;
-        right: 110px;
+        min-width: fit-content;
+        /* position: absolute; */
+        top: -580px;
+        right: 20%;
     }
 
     .shadow {
         width: 170px;
         height: 170px;
         position: absolute;
-        top: -740px;
-        right: 106px;
+        top: -720px;
+        right: 20%;
+        min-width: fit-content;
     }
 
     .header--content h1 {
-        width: 350px;
+        width: 375px;
         text-align: center;
         font-size: 3.2rem;
+        margin-left: -4%;
+        min-width: fit-content;
     }
 
     .header--content p {
-        width: 328px;
+        width: 327px;
         text-align: center;
         font-size: 1.6rem;
-        margin-right: 23px;
-        margin-left: 23px;
+        margin-top: 20px;
+        margin-right: 100%;
+        margin-left: 4.5%;
+        min-width: fit-content;
     }
 
     .header--button {
         align-self: center;
+        margin-left: 50%;
+        margin-right: 53%;
+        margin-top: 10%;
+
     }
 
     /* Activities */
+
+    .activities {
+        margin-top: 35%;
+        min-width: 100%;
+        /* max-width: 100%; */
+        position: relative;
+        width: 380px;
+    }
+
     .activities .row > span {
         font-size: 1.8rem;
+        margin-bottom: 3%;
     }
 
     .blog {
         width: 354px;
         height: 266px;
         flex-shrink: 0;
+        align-content: center;
+        align-items: center;
+        margin: auto;
     }
 
     .blog h2 {
@@ -113,7 +144,7 @@
     }
 
     .blog .blog--time {
-        margin-top: -20px;
+        margin-top: -35px;
         width: 327px;
     }
 
@@ -123,12 +154,13 @@
     }
 
     .blog .blog--time img {
-        left: 96px;
+        left: 30%;
     }
 
     /* Featured */
     .featured .content > span {
         font-size: 1.8rem;
+        margin-bottom: 10%;
     }
 
     .featured .content .works .work--image img {
@@ -136,14 +168,17 @@
         height: 266px;
         flex-shrink: 0;
         align-self: center;
+        margin: auto;
     }
 
     .featured .works {
         flex-direction: column;
+        margin: auto;
     }
 
     .work--content h2 {
         font-size: 2.4rem;
+        margin-bottom: -5px;
     }
 
     .row .year {
@@ -164,5 +199,11 @@
     /* Footer */
     footer {
         margin-top: 150px;
+        display: flex;
+    }
+
+    footer .social-icon {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
