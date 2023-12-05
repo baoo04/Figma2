@@ -34,6 +34,7 @@
         margin-top: 190px;
         margin-right: auto;
         margin-left: auto;
+        height: 50vh;
     }
 
     .hero {
@@ -209,6 +210,8 @@
         flex-shrink: 0;
         font-size: 1.6rem;
         margin-top: 10px;
+        padding-bottom: 1px;
+        border-bottom: 2px solid var(--Gray-5, #e0e0e0);
     }
 
     /* Footer */
