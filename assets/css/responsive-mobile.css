@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     
     main {
         min-width: fit-content;
@@ -8,12 +8,11 @@
         position: relative;
     }
 
-    .responsive--navbar i {
-        font-size: 40px;
-        display: block;
+    .responsive--navbar img {
         position: absolute;
-        right: 15px;
-        top: -140px;
+        display: block;
+        right: 2%;
+        top: -170px;
     }
 
     main {
@@ -23,6 +22,7 @@
     .content {
         width: 375px;
         max-width: calc(100% - 13px);
+        min-width: fit-content;
     }
 
     .navbar {
@@ -31,7 +31,7 @@
 
     .header {
         align-content: center;
-        margin-top: 150px;
+        margin-top: 190px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -51,24 +51,26 @@
         height: 170px;
         min-width: fit-content;
         /* position: absolute; */
-        top: -580px;
-        right: 20%;
+        top: -620px;
+        right: 76%;
     }
 
     .shadow {
         width: 170px;
         height: 170px;
         position: absolute;
-        top: -720px;
-        right: 20%;
+        top: -760px;
+        right: 40%;
         min-width: fit-content;
+        margin-bottom: 10px;
     }
 
     .header--content h1 {
-        width: 375px;
+        width: 312px;
         text-align: center;
-        font-size: 3.2rem;
+        font-size: 4.0rem;
         margin-left: -4%;
+        margin-bottom: 70px;
         min-width: fit-content;
     }
 
@@ -87,17 +89,18 @@
         margin-left: 50%;
         margin-right: 53%;
         margin-top: 10%;
-
+        min-width: fit-content;
     }
 
     /* Activities */
 
     .activities {
-        margin-top: 35%;
+        margin-top: 5%;
         min-width: 100%;
         /* max-width: 100%; */
         position: relative;
         width: 380px;
+        max-width: fit-content;
     }
 
     .activities .row > span {
@@ -112,6 +115,7 @@
         align-content: center;
         align-items: center;
         margin: auto;
+        min-width: fit-content;
     }
 
     .blog h2 {
@@ -137,6 +141,7 @@
     .activities .row {
         flex-direction: column;
         gap: 20px;
+        min-width: fit-content;
     }
 
     .activities .row > a {
@@ -155,6 +160,7 @@
 
     .blog .blog--time img {
         left: 30%;
+        min-width: fit-content;
     }
 
     /* Featured */
@@ -169,16 +175,24 @@
         flex-shrink: 0;
         align-self: center;
         margin: auto;
+        min-width: fit-content;
+        max-width: fit-content;
     }
 
     .featured .works {
         flex-direction: column;
         margin: auto;
+        min-width: fit-content;
+        border-bottom: none
     }
 
     .work--content h2 {
         font-size: 2.4rem;
         margin-bottom: -5px;
+    }
+
+    .works .work--content .row {
+        margin-top: 10px;
     }
 
     .row .year {
@@ -194,16 +208,19 @@
         height: 117px;
         flex-shrink: 0;
         font-size: 1.6rem;
+        margin-top: 10px;
     }
 
     /* Footer */
     footer {
         margin-top: 150px;
         display: flex;
+        min-width: fit-content;
     }
 
     footer .social-icon {
         margin-left: auto;
         margin-right: auto;
+        min-width: fit-content;
     }
 }

@@ -48,7 +48,7 @@ a {
     */
 }
 
-.responsive--navbar i {
+.responsive--navbar img {
     font-size: 40px;
     display: none;
 }
@@ -56,12 +56,12 @@ a {
 .menu {
     display: flex;
     gap: 33px;
-    margin-right: 150px;
+    margin-right: 50px;
     list-style-type: none;
 }
 
 .header {
-    height: 70vh;
+    height: 100vh;
 }
 
 .navbar .menu a {
@@ -99,11 +99,12 @@ a {
     color: var(--Dark-Color, #21243d);
     font-size: 1.95rem;
     font-weight: 400;
-    width: 500px;
+    width: 644px;
     height: 90px;
     flex-shrink: 0;
-    margin-top: 70px;
+    margin-top: 40px;
     line-height: 1.6;
+    margin-left: auto;
 }
 
 .header--button {
@@ -130,34 +131,33 @@ a {
 .header--img {
     margin-top: 140px;
     position: relative;
-    display: inline-block;
     flex-shrink: 0;
-    margin-left: -120px;
+    margin-left: 100px;
 }
 
 .header--img .avatar {
     z-index: 5;
-    margin-right: -10px;
+    margin-right: -100px;
     margin-top: -150px;
     position: absolute;
     top: 160px;
-    right: 0px;
-    width: 280px;
-    height: 280px;
+    right: 40px;
+    width: 290px;
+    height: 290px;
 }
 
 .shadow {
     z-index: 0;
     position: absolute;
-    right: -3px;
+    right: -50px;
     top: 30px;
-    width: 280px;
-    height: 280px;
+    width: 290px;
+    height: 290px;
 }
 
 /*------------ Activities ------------*/
 .activities {
-    margin-top: 171px;
+    margin-top: -40px;
     padding: 15px 0 30px;
     background: #edf7fa;
 }
@@ -192,7 +192,7 @@ a {
 
 .blog h2 {
     color: var(--Dark-Color, #21243d);
-    font-size: 2.8rem;
+    font-size: 3.0rem;
     font-weight: 700;
     width: 450px;
     height: 80px;
@@ -220,12 +220,12 @@ a {
 
 .blog .blog--time img {
     position: absolute;
-    top: 14px;
+    top: 10px;
     left: 135px;
 }
 
 .blog--content {
-    width: 450px;
+    width: 420px;
     height: 150px;
     flex-shrink: 0;
     color: var(--Dark-Color, #21243d);
@@ -242,7 +242,7 @@ a {
     gap: 28px;
     margin-top: 40px;
     margin-bottom: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     border-bottom: 1px solid var(--Gray-5, #e0e0e0);
     align-self: flex-start;
 }
@@ -312,7 +312,7 @@ a {
     display: flex;
     justify-content: flex-start;
     gap: 26px;
-    margin-top: 0px;
+    margin-top: -10px;
 }
 
 .work--content .details p {
